@@ -1,0 +1,17 @@
+.place {
+  margin-top: 80px;
+  max-width: 984px;
+  display: grid;
+  grid-template-columns: minmax(min-content, 460px) 1fr;
+  grid-template-rows: repeat(2, minmax(min-content, max-content));
+  grid-auto-rows: 0;
+  grid-row-gap: 48px;
+  grid-column-gap: 40px;
+  grid-template-areas: 
+  "title website"
+  "image content";
+}
+
+.place:first-child {
+  margin: 0;
+}

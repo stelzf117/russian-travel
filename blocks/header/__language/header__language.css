@@ -1,0 +1,16 @@
+.header__language {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  line-height: 38px;
+  margin: 0 16px 0 0;
+  transition: opacity .3s ease-in-out;
+}
+
+.header__language:last-child {
+  margin: 0;
+}
+
+.header__language:hover {
+  opacity: .8;
+}

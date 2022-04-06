@@ -1,0 +1,25 @@
+.cover {
+  margin: 92px 48px 0;
+  background: url(../../images/cover__background.jpg) center no-repeat;
+  background-size: contain;
+  aspect-ratio: 8/5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.cover::after {
+  content: "";
+  background-color: rgba(42, 44, 47, .3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: background-color .3s ease-in-out;
+}
+
+.cover:hover::after {
+  background-color: rgba(42, 44, 47, .8);
+} 
