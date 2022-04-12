@@ -4,6 +4,7 @@
   margin: 12px 0 0;
   color: #fff;
   transition: opacity .3s ease-in-out;
+  display: block;
 }
 
 .place__link:hover {

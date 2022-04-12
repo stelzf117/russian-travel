@@ -23,3 +23,22 @@
 .cover:hover::after {
   background-color: rgba(42, 44, 47, .8);
 } 
+
+
+@media screen and (max-width: 1280px) {
+  .cover {
+    margin: 92px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin-top: 66px;
+  }
+}

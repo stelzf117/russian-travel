@@ -1,9 +1,0 @@
-.place__image-container {
-  grid-area: image;
-  display: block;
-  overflow: hidden;
-  position: relative;
-  width: 460px;
-  height: 460px;
-  z-index: 1;
-}
