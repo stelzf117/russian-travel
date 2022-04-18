@@ -7,3 +7,9 @@
 .place__paragraph:first-child {
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
+}
