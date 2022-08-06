@@ -4,4 +4,4 @@
 
 **3. Указание, что за технологии используются:** HTML, CSS, flexbox, БЭМ-Nested, Grid.
  
-Github pages https://stelzf117.github.io/russian-travel/
+<a href="https://stelzf117.github.io/russian-travel/">Github pages</a>
